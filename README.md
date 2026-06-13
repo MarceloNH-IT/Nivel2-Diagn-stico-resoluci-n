@@ -89,7 +89,9 @@ Documentar tanto errores como soluciones, dejando evidencia clara.
 
 
 
-
+💼 LinkedIn: Horacio Marcelo Nuñez (Podés sumar tu enlace aquí más adelante)
+📬 Correo Electrónico: marcelonunez.tecno@gmail.com
+🚀 GitHub: @MarceloNunez-NOC
 
 
 
