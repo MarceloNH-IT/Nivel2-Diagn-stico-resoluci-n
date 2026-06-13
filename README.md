@@ -85,7 +85,16 @@ Documentar tanto errores como soluciones, dejando evidencia clara.
 - Total de comandos ejecutados: 18  
 - Total de capturas subidas: 12  
 - Validaciones exitosas: 9  
-- Errores documentados: 3  
+- Errores documentados: 3
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarceloNH-IT&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MarceloNH-IT&layout=compact&theme=radical)
+
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=MarceloNH-IT&theme=radical)
+
+![Profile Views](https://komarev.com/ghpvc/?username=MarceloNH-IT&color=blue&style=flat)
+
 
 
 
