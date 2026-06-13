@@ -39,9 +39,9 @@ Este práctico demuestra cómo un operador de nivel 2 puede:
 Cambio de adaptador a NAT
 [Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]
 
-📌 Se modificó la configuración de red en VirtualBox para permitir salida a Internet.
+## 📌 Se modificó la configuración de red en VirtualBox para permitir salida a Internet.
 
-📌 Paso 4 – Validación después de la reparación
+## 📌 Paso 4 – Validación después de la reparación
 
 # Prueba de conectividad externa (Google DNS)
     ping -c 4 8.8.8.8
@@ -57,13 +57,13 @@ Cambio de adaptador a NAT
 [Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]
 📌 Observación: Tras cambiar el adaptador a NAT en VirtualBox, la VM recuperó salida a Internet y resolución de nombres.
 
-Ping a 8.8.8.8 → exitoso.
+    Ping a 8.8.8.8 → exitoso.
 
-Ping a google.com → exitoso.
+    Ping a google.com → exitoso.
 
-Nslookup → resolvió correctamente.
+    Nslookup → resolvió correctamente.
 
-✅ Conclusión Nivel 2
+## ✅ Conclusión Nivel 2
 El práctico de nivel 2 demuestra que un operador puede:
 
 Detectar fallos de conectividad más allá de la configuración básica.
@@ -76,16 +76,17 @@ Validar nuevamente con ping y nslookup.
 
 Documentar tanto errores como soluciones, dejando evidencia clara.
 
-📌 Observación: En entornos virtuales, la conectividad depende tanto del sistema operativo como de la configuración del hipervisor. El operador nivel 2 debe diagnosticar ambos niveles.
+## 📌 Observación: En entornos virtuales, la conectividad depende tanto del sistema operativo como de la configuración del hipervisor. El operador nivel 2 debe diagnosticar ambos niveles.
 
 
-📊 Paso 5 – Contadores y stats
+## 📊 Paso 5 – Contadores y stats
 
 ## 📈 Contadores de pruebas
 - Total de comandos ejecutados: 18  
 - Total de capturas subidas: 12  
 - Validaciones exitosas: 9  
 - Errores documentados: 3
+  
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarceloNH-IT&show_icons=true&theme=radical)
 
