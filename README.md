@@ -148,11 +148,10 @@ Este laboratorio demuestra la capacidad de **diagnóstico y resolución de incid
 
 
 
-💼 LinkedIn: Horacio Marcelo Nuñez 
+* **💼 LinkedIn**: [Horacio Marcelo Nuñez](https://www.linkedin.com/in/marcelo-nunez-it/?skipRedirect=true)
+* **📬 Correo Electrónico**: [marcelonh86@gmail.com](marcelonh86@gmail.com)
+* **🚀 GitHub**: [@MarceloNunez-NOC](https://github.com/MarceloNunez-NOC)
 
-📬 Correo Electrónico: marcelonh86@gmail.com
-
-🚀 GitHub: @MarceloNunez-NOC
 
 Agradezco el tiempo de quienes visitan mi portafolio en GitHub. Cada laboratorio refleja mi compromiso con el aprendizaje continuo y la práctica aplicada en IT, redes y administración de sistemas. Mi objetivo es demostrar que puedo diagnosticar, resolver y documentar incidentes de manera profesional, utilizando máquinas virtuales y configuraciones de red.
 
