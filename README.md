@@ -148,7 +148,7 @@ Este laboratorio demuestra la capacidad de **diagnóstico y resolución de incid
 
 💼 LinkedIn: Horacio Marcelo Nuñez 
 
-📬 Correo Electrónico: marcelonunez.tecno@gmail.com
+📬 Correo Electrónico: marcelonh86@gmail.com
 
 🚀 GitHub: @MarceloNunez-NOC
 
