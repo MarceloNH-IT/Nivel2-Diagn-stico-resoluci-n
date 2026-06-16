@@ -7,6 +7,50 @@ Esta práctica demuestra cómo un operador de nivel 2 puede:
 - Validar nuevamente con ping y nslookup.
 - Documentar tanto errores como soluciones.
 
+# 🖧 Laboratorio NOC – Nivel 2  
+Diagnóstico y resolución de red desconectada en máquina virtual
+
+## 📌 Descripción
+Este laboratorio reproduce un escenario típico de **NOC Nivel 2**:  
+- La máquina virtual Linux no tenía conectividad porque la interfaz de red estaba **desconectada** en la configuración de virtualización.  
+- Se realizó diagnóstico paso a paso, identificación del fallo y resolución aplicando cambios en la VM y validando conectividad.
+
+## 🎯 Objetivos
+- [Detectar fallo de conectividad](ca://s?q=Detectar_fallo_de_conectividad_en_Linux)  
+- [Revisar configuración de red en VM](ca://s?q=Revisar_configuracion_de_red_en_virtualizacion)  
+- [Aplicar corrección en interfaz desconectada](ca://s?q=Corregir_interfaz_de_red_en_virtualizacion)  
+- [Validar conectividad con ping y DNS](ca://s?q=Validar_conectividad_con_ping_y_DNS)  
+
+## 🧩 Comandos utilizados
+- `ip addr show` → [Ver estado de interfaces](ca://s?q=Comando_ip_addr_show_en_Linux)  
+- `ping -c 4 192.168.60.1` → [Probar conectividad con gateway](ca://s?q=Comando_ping_en_Linux)  
+- `ping -c 4 google.com` → [Probar conectividad externa](ca://s?q=Ping_a_google_en_Linux)  
+- `nslookup google.com` → [Validar resolución DNS](ca://s?q=Comando_nslookup_en_Linux)  
+
+## 🔎 Diagnóstico
+- La interfaz aparecía sin IP asignada en `ip addr show`.  
+- El ping al gateway fallaba con *Destination Host Unreachable*.  
+- Se verificó la configuración de la VM y se detectó que la tarjeta de red estaba **desconectada**.  
+
+## 🔧 Resolución
+- Se activó la interfaz de red en la configuración de virtualización.  
+- Se aplicó nuevamente la configuración IP estática con Netplan.  
+- Se validó conectividad con ping y resolución DNS.  
+
+## ✅ Validación
+- Ping exitoso al gateway (`192.168.60.1`).  
+- Ping exitoso a dominio externo (`google.com`).  
+- DNS respondió correctamente con `nslookup`.  
+
+## 📷 Evidencias
+- Captura de `ip addr show` antes y después de la corrección.  
+- Resultados de ping fallido y luego exitoso.  
+- Validación de DNS con `nslookup`.  
+
+## 📚 Notas
+Este laboratorio demuestra la capacidad de **diagnóstico y resolución de incidentes** en entorno virtualizado, documentando el proceso completo como evidencia técnica en portafolio GitHub.
+
+
   Ingresamos a Virtualbox configuramos la red.
 
 ![Ping Gateway](assets/linux-ip-nivel2/X5.jpeg)
@@ -77,6 +121,9 @@ Validar nuevamente con ping y nslookup.
 Documentar tanto errores como soluciones, dejando evidencia clara.
 
 ## 📌 Observación: En entornos virtuales, la conectividad depende tanto del sistema operativo como de la configuración del hipervisor. El operador nivel 2 debe diagnosticar ambos niveles.
+
+## 📚 Notas
+Este laboratorio demuestra la capacidad de **diagnóstico y resolución de incidentes** en entorno virtualizado, documentando el proceso completo como evidencia técnica en portafolio GitHub.
 
 
 ## 📊 Paso 5 – Contadores y stats
