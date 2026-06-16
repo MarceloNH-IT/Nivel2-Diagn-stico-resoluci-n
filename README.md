@@ -1,6 +1,6 @@
 # 🌐 Configuración Básica de IP en Linux – Nivel 2
 
-Este práctico demuestra cómo un operador de nivel 2 puede:
+Esta práctica demuestra cómo un operador de nivel 2 puede:
 - Detectar fallos de conectividad más allá de la configuración básica.
 - Revisar tabla de rutas y configuración del hipervisor.
 - Aplicar correcciones en VirtualBox (NAT/Bridge).
